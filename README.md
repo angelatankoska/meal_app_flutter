@@ -9,7 +9,8 @@ Meal App Flutter овозможува прегледување, пребарув
 - Навигација: Со клик на категорија се отвора MealsScreen за таа категорија.
 - Дополнително: До копчето за рандом рецепти има копче за да се гледаат омилените рецепти.
 
-<img width="403" height="856" alt="Screenshot 2025-11-26 170903" src="https://github.com/user-attachments/assets/9b4ffaf7-2ede-403f-8fab-fa2febf2a1a0" />
+<img width="401" height="869" alt="Screenshot 2025-12-13 204625" src="https://github.com/user-attachments/assets/cf8b2a72-4886-442d-ade7-eb2c150f945a" />
+
 
 ### Екран со јадења по категорија
 - Функција: Прикажува сите рецепти од избраната категорија (на пример, сите chicken јадења).
@@ -18,7 +19,7 @@ Meal App Flutter овозможува прегледување, пребарув
 - Има SearchBar најгоре за динамично пребарување рецепти (јадења) во таа категорија.
 - На секој рецепт има срценце на кое со клик истиот се додава во омилени рецепти
 
-<img width="417" height="848" alt="Screenshot 2025-11-26 170919" src="https://github.com/user-attachments/assets/7ae8a8b2-bd6a-4a04-84a0-10c4f7ed1f8a" />
+<img width="394" height="873" alt="Screenshot 2025-12-13 204641" src="https://github.com/user-attachments/assets/c5684d2e-692a-4397-92b8-48894d45133c" />
 <img width="408" height="870" alt="Screenshot 2025-12-13 202642" src="https://github.com/user-attachments/assets/812e51ae-17d9-4e59-bab5-c75b98e77c00" />
 
 
