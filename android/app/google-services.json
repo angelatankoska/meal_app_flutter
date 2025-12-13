@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99799684958",
+    "project_id": "meal-app-finki",
+    "storage_bucket": "meal-app-finki.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99799684958:android:49dbdb6f0eefa69e14e1cf",
+        "android_client_info": {
+          "package_name": "com.example.meal_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEkMoP6OkTBjNsFQidIDUH5WLxBKxyuLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

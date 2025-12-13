@@ -5,6 +5,8 @@ import '../widgets/search_bar.dart';
 import '../models/category.dart';
 import 'meals_screen.dart';
 import 'meal_detail_screen.dart';
+import 'favorites_screen.dart';
+
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -40,6 +42,15 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 3,
         actions: [
           IconButton(
+            icon: Icon(Icons.favorite, color: Colors.white),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => FavoritesScreen()),
+              );
+            },
+          ),
+          IconButton(
             icon: Icon(Icons.casino, color: Colors.white),
             onPressed: () async {
               final randomMeal = await ApiService().fetchRandomMeal();
@@ -53,6 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+
       body: FutureBuilder<List<Category>>(
         future: categoriesFuture,
         builder: (context, snapshot) {
