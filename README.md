@@ -1,16 +1,30 @@
-# meal_app
+# Meal App Flutter
 
-A new Flutter project.
+Meal App Flutter овозможува прегледување, пребарување и филтрирање рецепти според категории и име на јадење. Апликацијата ги презема податоците од TheMealDB API, прикажува детални информации за секој рецепт (состојки, подготовка, слика), и има “рандом рецепт на денот” функционалност. Корисничкиот интерфејс користи модерен grid/card дизајн, пријатни пастелни бои и динамично пребарување за подобра интеракција и визуелен ефект. Се состои од повеќе екрани – почетен екран со категории, екран за јадења по категорија, детални инструкции и пребарувач за recipes.
 
-## Getting Started
+### Почетен екран — Листа од категории
+- Функција: Прикажува листа од сите категории рецепти со име, слика и краток опис (на пример, „Chicken“, „Dessert“).
+- UI: GridView со картички, има SearchBar најгоре за динамично пребарување категории.
+- AppBar: Има рандом копче во десниот дел од AppBar-от кое при кликање прикажува случаен рецепт.
+- Навигација: Со клик на категорија се отвора MealsScreen за таа категорија.
 
-This project is a starting point for a Flutter application.
+<img width="403" height="856" alt="Screenshot 2025-11-26 170903" src="https://github.com/user-attachments/assets/9b4ffaf7-2ede-403f-8fab-fa2febf2a1a0" />
 
-A few resources to get you started if this is your first Flutter project:
+### Екран со јадења по категорија
+- Функција: Прикажува сите рецепти од избраната категорија (на пример, сите chicken јадења).
+- UI: GridView со MealCard за секој рецепт кој содржи име и слика; 
+- Навигација: Со клик на MealCard се отвора MealDetailScreen со детали за тој рецепт.
+- Има SearchBar најгоре за динамично пребарување рецепти (јадења) во таа категорија.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="417" height="848" alt="Screenshot 2025-11-26 170919" src="https://github.com/user-attachments/assets/7ae8a8b2-bd6a-4a04-84a0-10c4f7ed1f8a" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Детален приказ на рецепт
+- Функција: Прикажува целосен рецепт — слика, име, листа на состојки и количини, чекори за припрема и YouTube линк (ако постои).
+- Навигација: Со клик на стрелката горе лево се враќаме на екранот со јадења по категорија.
+
+  <img width="404" height="853" alt="Screenshot 2025-11-26 170939" src="https://github.com/user-attachments/assets/dc80956f-5410-4442-984f-7be1dc483a4c" />
+  <img width="404" height="840" alt="Screenshot 2025-11-26 171004" src="https://github.com/user-attachments/assets/cb353f07-ae6a-48e6-b9ea-802e43624428" />
+
+
+
+
